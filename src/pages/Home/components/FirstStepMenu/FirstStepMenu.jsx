@@ -35,7 +35,7 @@ export default function FirstStepMenu() {
           ))}
         </div>
         <Link to="/menu">
-            <button className="mt-40 px-20 py-6 border-2 border-black rounded-full bg-transparent hover:bg-black hover:text-white transition-colors duration-300 block mx-auto">
+            <button className="mt-40 px-20 py-6 border-2 border-[#131524] rounded-full bg-transparent hover:bg-[#131524] hover:text-white transition-colors duration-300 block mx-auto">
                 View Menu
             </button>
         </Link>

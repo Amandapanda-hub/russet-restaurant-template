@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function NavBar() {
   return (
-    <div>NavBar</div>
+    <div className=''>
+      <div className=''>
+        
+      </div>
+    </div>
   )
 }
