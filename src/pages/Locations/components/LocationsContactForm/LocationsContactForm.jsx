@@ -29,7 +29,7 @@ export default function LocationsContactForm() {
                   <input 
                     id="firstName"
                     type="text" 
-                    placeholder="First Name" 
+                    placeholder="" 
                     className="p-2 border rounded"
                   />
                 </div>
@@ -38,7 +38,7 @@ export default function LocationsContactForm() {
                   <input 
                     id="lastName"
                     type="text" 
-                    placeholder="Last Name" 
+                    placeholder="" 
                     className="p-2 border rounded"
                   />
                 </div>
@@ -48,14 +48,14 @@ export default function LocationsContactForm() {
               <input 
                 id="email"
                 type="email" 
-                placeholder="Email" 
+                placeholder="" 
                 className="w-full p-2 border rounded"
               />
               
               <label htmlFor="message" className="block text-sm font-semibold mb-2">Message</label>
               <textarea 
                 id="message"
-                placeholder="Message" 
+                placeholder="" 
                 className="w-full p-2 border rounded h-32"
               ></textarea>
               
