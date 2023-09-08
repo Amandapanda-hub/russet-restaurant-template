@@ -29,7 +29,7 @@ export default function ReservationMaker() {
         </div>
 
         <button 
-          className="bg-black text-white p-2 rounded-md hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
+          className="bg-black text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
         >
           Reserve
         </button>
