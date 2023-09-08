@@ -40,6 +40,7 @@ export default function NavBar() {
               <Link to="/" activeClassName="underline block my-2">Home</Link>
               <Link to="/menu" activeClassName="underline block my-2">Menu</Link>
               <Link to="/reservation" activeClassName="underline block my-2">Reservation</Link>
+              <Link to='/locations' activeClassName="underline block my-2">Locations</Link> 
               {/* Other Links */}
               {/* React Icons */}
               <BsYelp className="mt-4" />
@@ -55,6 +56,8 @@ export default function NavBar() {
         <Link to="/" style={{ textDecoration: location.pathname === "/" ? "underline" : "none" }}>Home</Link>
           <Link to="/menu" style={{ textDecoration: location.pathname === "/menu" ? "underline" : "none" }}>Menu</Link>
           <Link to="/reservation" style={{ textDecoration: location.pathname === "/reservation" ? "underline" : "none" }}>Reservation</Link>
+          <Link to="/locations" style={{ textDecoration: location.pathname === "/locations" ? "underline" : "none" }}>Locations</Link>
+
           {/* Other Links */}
           <BsYelp className="ml-4 self-center" />
           <BsGithub className="ml-4 self-center" />

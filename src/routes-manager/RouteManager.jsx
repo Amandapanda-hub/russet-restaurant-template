@@ -7,6 +7,7 @@ import ReservationPage from '../pages/ReservationPage/ReservationPage';
 import NavBar from '../components/NavBar/NavBar';
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 import PageRouteTitle from '../components/PageRouteTitle/PageRouteTitle';
+import LocationsPage from '../pages/Locations/LocationsPage';
 
 export default function RouteManager() {
   return (
@@ -27,6 +28,9 @@ export default function RouteManager() {
                  <Route path='/reservation' element={
                     <ReservationPage/>
                 } />
+               <Route path='/locations' element={
+                    <LocationsPage/>
+                } /> 
             </Routes>
             <Footer/>
         </Router>
