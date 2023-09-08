@@ -45,6 +45,7 @@ export default function Footer() {
                 } else if (typeof item === 'string') {
                   return <p key={i}>{item}</p>;
                 }
+                return null; 
               })}
             </div>
           ))}
