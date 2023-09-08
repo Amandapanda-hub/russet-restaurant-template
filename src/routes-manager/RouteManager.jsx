@@ -6,11 +6,13 @@ import Footer from '../components/Footer/Footer';
 import ReservationPage from '../pages/ReservationPage/ReservationPage';
 import NavBar from '../components/NavBar/NavBar';
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
+import PageRouteTitle from '../components/PageRouteTitle/PageRouteTitle';
 
 export default function RouteManager() {
   return (
     <>
         <Router>
+            <PageRouteTitle/>
             <ScrollToTop/>
             <NavBar/>
         <Routes>
