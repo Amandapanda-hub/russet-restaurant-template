@@ -5,7 +5,7 @@ const footerData = [
     {
         header: "Denver",
         info: [
-            "123 Demo Street, New York, NY 12345", 
+            "123 Demo Street, City, CO 12345", 
             "(555) 555-5555", 
             "Monday - Sunday,10am - 10pm"
         ]
@@ -13,7 +13,7 @@ const footerData = [
     {
         header: "Castle Rock",
         info: [
-            "123 Demo Street, New York, NY 12345", 
+            "123 Demo Street, City, CO 12345", 
             "(555) 555-5555", 
             "Monday - Sunday,10am - 10pm"
         ]
@@ -21,7 +21,7 @@ const footerData = [
     {
         header: "Food Truck",
         info: [
-            "123 Demo Street, New York, NY 12345", 
+            "123 Demo Street, City, CO 12345", 
             "(555) 555-5555", 
             "Monday - Sunday,10am - 10pm"
         ]
