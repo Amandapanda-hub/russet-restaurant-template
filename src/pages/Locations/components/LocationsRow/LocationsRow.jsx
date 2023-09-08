@@ -3,7 +3,7 @@ import footerData from '../../../../data/footerData';
 
 export default function LocationsRow() {
   return (
-    <div className=' text-black py-20'>
+    <div className=' text-black my-40 py-20'>
       <div className='max-w-screen-lg mx-auto w-full sm:w-3/4 md:w-2/3 text-center'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40'>
           {footerData.slice(0, 3).map((column, index) => (
