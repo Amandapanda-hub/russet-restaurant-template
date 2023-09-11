@@ -22,11 +22,11 @@ export default function FirstStepMenu() {
 
   return (
     <div className="py-20 md:p-10"> 
-      <div className="py-20 px-6 md:px-20 lg:px-60 space-y-20"> {/* adjusted padding for smaller screens */}
+      <div className="py-20 px-6 md:px-20 lg:px-60 space-y-20"> 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
           {boxesContent.map((box, index) => (
-            <div key={index} className=" relative w-full max-w-[500px] mx-auto"> {/* changed to max-width and w-full */}
-              <div className="relative w-full pb-[56.25%]"> {/* Adjusted for a 16:9 aspect ratio */}
+            <div key={index} className=" relative w-full max-w-[500px] mx-auto"> 
+              <div className="relative w-full pb-[56.25%]"> 
                 <img src={box.imageUrl} alt={box.description} className="absolute top-0 left-0 w-full h-full object-cover" />
               </div>
               <h3 className="text-xl mt-4">{box.title}</h3>
