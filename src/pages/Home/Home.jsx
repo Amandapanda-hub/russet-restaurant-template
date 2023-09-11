@@ -9,7 +9,8 @@ import BottomPhoto from './components/BottomPhoto/BottomPhoto'
 
 export default function Home() {
   return (
-    <>
+    <div className='overflow-x-hidden'>
+
     <Hero/>
     <WordBreak/>
     <MakeReservation/>
@@ -17,6 +18,7 @@ export default function Home() {
     <PictureBreak/>
     <KitchenInsight/>
     <BottomPhoto/>
-    </>
+    </div>
+   
   )
 }
