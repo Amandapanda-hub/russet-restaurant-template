@@ -14,7 +14,7 @@ export default function MakeReservation() {
       <div className="flex items-center justify-center w-full">
         <Link 
           to='/reservation' 
-          className="text-sm sm:text-base px-4 sm:px-6 py-1 sm:py-2 border-2 border-white text-white rounded-full bg-transparent hover:bg-white hover:text-black transition-colors duration-300"
+          className="text-sm sm:text-base px-4 sm:px-6 py-1 sm:py-6 border-2 border-white text-white rounded-full bg-transparent hover:bg-white hover:text-black transition-colors duration-300"
         >
           Make a Reservation
         </Link>
